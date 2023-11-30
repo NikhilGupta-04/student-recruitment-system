@@ -1,0 +1,40 @@
+﻿.exam{
+    font-size:35px;
+}
+
+.examtime {
+    font-size: 22px;
+}
+    
+.butonexam {
+    display: inline-block;
+    border-radius: 27px;
+    padding: 9px;
+    width: 200px;
+    background-color: #007bff;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px;
+    text-align: center;
+    font-size: 18px;
+    float:right;
+
+}
+
+.butonexam:hover::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    opacity: 1;
+    right: 0;
+    }
+
+.butonexam span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s
+}
